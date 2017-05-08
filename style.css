@@ -1,0 +1,92 @@
+/* 
+    Created on : 04-may-2017, 17:28:46
+    Author     : Manolo
+*/
+.modal {
+    display: none; /*el modal está escondido*/
+    position: fixed;
+    z-index: 1; /*está en el top*/
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vw; 
+    overflow: auto; /*permite el scroll*/
+    background-color: rgb(0,0,0); /*los colores de esta forma para que no se vean*/
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* el interior de la ventana */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* para que esté centrado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70vw;
+}
+
+/* botón de cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal2 {
+    display: none; /* escondido */
+    position: fixed; /* su posición */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vw; 
+    overflow: auto;
+    background-color: rgb(10,0,0); /* los colores de esta forma para que no se vea */
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+/* interior de la segunda ventana */
+.modal-content2 {
+    background-color: #ffffff;
+    margin: 15% auto; /* centrado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40vw;
+}
+.modal3 {
+    display: none; /* oculto */
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vw;
+    overflow: auto;
+    background-color: rgb(10,0,0); /* color para que no se vea */
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+/* interior de la tercera ventana */
+.modal-content3 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60vw;
+}
+
+
+.texto_ventana{
+    display: block;
+    object-position: center;
+    text-align: center;
+}
+
